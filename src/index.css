@@ -31,3 +31,13 @@ body {
   width: 1px;
   background-color: var(--color-sushi-border);
 }
+
+@layer utilities {
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
