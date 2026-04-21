@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Noto Serif TC", serif;
+  --font-sans: "Noto Sans TC", sans-serif;
+  --color-sushi-bg: #FDFBF7;
+  --color-sushi-ink: #1C1C1C;
+  --color-sushi-red: #BC2F32;
+  --color-sushi-border: rgba(28, 28, 28, 0.1);
+}
+
+body {
+  background-color: var(--color-sushi-bg);
+  color: var(--color-sushi-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.text-vertical {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+/* Subtle graphic lines */
+.graphic-line {
+  height: 1px;
+  background-color: var(--color-sushi-border);
+}
+
+.graphic-line-v {
+  width: 1px;
+  background-color: var(--color-sushi-border);
+}
