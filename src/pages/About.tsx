@@ -5,8 +5,9 @@ export default function About() {
   return (
     <>
       <Helmet>
-        <title>品牌故事 | 榮禾壽司 - 外帶專門店</title>
-        <meta name="description" content="了解榮禾壽司的品牌故事。堅持每日採買新鮮漁獲，只為呈現最極致的鮮甜口感。品味桃園上海路最推薦的手作壽司。" />
+        <title>品牌故事 | 榮禾壽司 - 桃園外帶專門店</title>
+        <meta name="description" content="了解榮禾壽司的品牌故事。堅持每日採買新鮮漁獲，職人手工捏製，只為呈現最極致的鮮甜口感。品味桃園上海路最推薦的平價高級手作壽司。" />
+        <meta name="keywords" content="榮禾壽司故事, 桃園壽司推薦, 職人手作壽司, 新鮮生魚片, 桃園上海路美食, 外帶壽司品牌, 桃園日本料理" />
       </Helmet>
       
       <section className="py-24 px-6 md:px-12 max-w-[1440px] mx-auto border-t border-[var(--color-sushi-border)] mt-24">

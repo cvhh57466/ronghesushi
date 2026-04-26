@@ -5,8 +5,9 @@ export default function Menu() {
   return (
     <>
       <Helmet>
-        <title>最新菜單 | 榮禾壽司 - 外帶專門店</title>
-        <meta name="description" content="瀏覽榮禾壽司的精選菜單。包含盛合刺身、精緻握壽司、豪華盛盤等豐富選擇，立即透過外送平台訂購。" />
+        <title>最新菜單 | 榮禾壽司 - 桃園人氣外帶壽司</title>
+        <meta name="description" content="瀏覽榮禾壽司精選菜單。包含新鮮平價生魚片、精緻握壽司、豪華盛盤與會議日式餐盒等豐富選擇，立即透過 Foodpanda 與 UberEats 外送平台訂購桃園必吃壽司。" />
+        <meta name="keywords" content="榮禾壽司菜單, 桃園壽司品項, 平價生魚片, 壽司盛盤推薦, 生魚片便當, 桃園外賣壽司, 桃園區會議餐盒, 日式料理外帶" />
       </Helmet>
       <section className="py-24 px-6 md:px-12 max-w-[1440px] mx-auto border-t border-[var(--color-sushi-border)] mt-24">
         <div className="flex flex-col md:flex-row justify-between md:items-end gap-8 mb-16 relative">

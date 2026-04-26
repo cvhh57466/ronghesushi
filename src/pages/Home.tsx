@@ -2,10 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { motion } from "motion/react";
+import { Helmet } from "react-helmet-async";
 
 export default function Home() {
   return (
     <>
+      <Helmet>
+        <title>榮禾壽司 - 桃園高品質外帶壽司、生魚片專門店</title>
+        <meta name="description" content="桃園美食壽司推薦！榮禾壽司提供最高品質的外帶壽司、手作握壽司與生魚片盛盤。嚴選新鮮食材，職人精神捏製。Foodpanda 與 UberEats 皆可外送，為您帶來最滿意的桃園日本料理體驗。" />
+        <meta name="keywords" content="桃園壽司, 外帶壽司, 榮禾壽司, 桃園區美食, 桃園生魚片, 壽司外帶, 握壽司, 壽司推薦, 高品質壽司, 外送壽司, 桃園日本料理, 日式便當, 生魚片便當, 聚餐外帶, 會議便當" />
+      </Helmet>
       <section className="relative min-h-[90vh] pt-32 pb-20 px-6 md:px-12 max-w-[1440px] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center h-full">
           <motion.div 

@@ -8,8 +8,9 @@ export default function Location() {
   return (
     <>
       <Helmet>
-        <title>門市位置 | 榮禾壽司 - 外帶專門店</title>
-        <meta name="description" content="榮禾壽司地址位於桃園市桃園區上海路15號。查看我們的門市營業時間與交通導航，歡迎蒞臨外帶。" />
+        <title>門市位置 | 榮禾壽司 - 桃園外帶壽司</title>
+        <meta name="description" content="榮禾壽司店址位於桃園市桃園區上海路15號。查看我們的門市營業時間與交通導航。歡迎親臨外帶最新鮮的生魚片與握壽司，或使用 UberEats 與 Foodpanda 訂購桃園最好吃的外送壽司。" />
+        <meta name="keywords" content="榮禾壽司地址, 桃園區上海路美食, 桃園好吃的壽司店, 桃園生魚片外帶, 桃園壽司營業時間, 桃園外帶便當, 壽司店位置" />
       </Helmet>
       <section className="py-24 px-6 md:px-12 max-w-[1440px] mx-auto border-t border-[var(--color-sushi-border)] mt-24">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
